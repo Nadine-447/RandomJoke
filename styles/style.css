@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fab22e;
+}
+.wrapper{
+    width: 80vmin;
+    padding: 50px 40px;
+    background-color: #15161a;
+    position: absolute;
+    /* place the wrapper element in the center of the screen  */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    /* round the corners of the wrapper */
+    border-radius: 5px;
+    /* add a shadow effect from the wrapper */
+    box-shadow: 20px 20px 40px rgba(97, 63, 0, 0.4);
+}
+span{
+    /* turns any element into a block */
+    display: block;
+    /* align our smile in the center of the wrapper */
+    text-align: center;
+    /* make our smile bigger */
+    font-size: 100px;
+}
