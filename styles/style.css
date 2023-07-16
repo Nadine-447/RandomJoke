@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
 }
 body{
     background-color: #fab22e;
@@ -27,4 +28,35 @@ span{
     text-align: center;
     /* make our smile bigger */
     font-size: 100px;
+}
+p{
+    /* change font size of our joke */
+    font-size: 16px;
+    /* change color of the font */
+    color: #c0baba;
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    /* change line height */
+    line-height: 35px;
+    margin: 30px 0;
+}
+button{
+    display: block;
+    background-color: #fab22e;
+    /* remove border */
+    border: none;
+    /* make our button wider */
+    padding: 5px;
+    /* change font size */
+    font-size: 18px;
+    color: #171721;
+    /* change font weigth */
+    font-weight: 600;
+    padding: 12px 25px;
+    /* button in the center */
+    margin: 0 auto;
+    border-radius: 5px;
+    /* change the cursor to a pointer when it is on a button */
+    cursor: pointer;
 }
